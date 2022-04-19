@@ -30,7 +30,7 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
         caps.setCapability("app", Credentials.config.app());
 
         // Specify device and os_version for testing
-        caps.setCapability("device", "Galaxy S21");
+        caps.setCapability("device", "Google Pixel 3");
         caps.setCapability("os_version", "9.0");
 
         // Set other BrowserStack capabilities
